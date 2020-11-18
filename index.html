@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+    <head>    
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
        
         <title>Giphy Search</title>
     </head>
     <body>
-        <div class="container"> 
-            <form>
-            <div class="form-group">
-                <label for="">Search Your Favorite Giphy</label>
-                <input type="text" class="form-control" id="search-field" placeholder="search...">
-            </div>
-            <button type="submit" class="btn btn-primary" id="search-button" >Submit</button>
-            </form>
-            <br>
-            <div class="search-results"></div>
-            </div>
-        </div>
+                 
+                <label >Search Your Favorite Giphy</label>
+                <br>
+                <input type="text" id="search-field" placeholder="search...">
+                <button id="fetch-from-api">Submit</button>        
+                <div id="first-result-image"></div>
     </body>
 </html>
